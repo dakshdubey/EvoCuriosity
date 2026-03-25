@@ -1,6 +1,6 @@
 from .base import BaseConnector
-from .sql_connector import SqlConnector
-from .mongo_connector import MongoConnector
-from .vector_connector import VectorConnector
+from .sql import SqlConnector
+from .mongo import MongoConnector
+from .vector import VectorConnector
 
 __all__ = ["BaseConnector", "SqlConnector", "MongoConnector", "VectorConnector"]
